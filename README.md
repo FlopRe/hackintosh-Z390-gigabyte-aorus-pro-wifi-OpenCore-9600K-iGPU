@@ -12,14 +12,18 @@ Feel free to download & use this as a helping point for your very own hackintosh
   - You might want to add verbose for troubleshooting, at least until you get it to work as needed (-v into boot-args) 
 
 ### Specs
-  - Z390 Aorus Pro Wifi
-  - i5 9600K
-  - UHD630 iGPU
-  - RTX2060 (*Disabled & not used, using SSDT-GPU-DISABLE*)
+  - Motherboard: Gigabyte Z390 Aorus Pro Wifi (A305)
+  - CPU: i5 9600K @ 5GHz
+  - GPU: UHD630 (*RTX2060 Disabled & not used, using SSDT-GPU-DISABLE*)
+  - RAM: Corsair Vengance Pro RGB 32GB 3200MHz
+  - Audio Codec: Realtek ALCS1220A
+  - Ethernet Card: Intel i219V(7)
+  - Wifi/BT Card: Integrated board cards, fully working
 
 ### Credit / Useful links
   - [Dortania Install Guide - Intel Coffee Lake](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#starting-point)
   - [zxystd's itlwm](https://github.com/OpenIntelWireless/itlwm)
+  - [Framebuffer Patching](https://www.tonymacx86.com/threads/guide-general-framebuffer-patching-guide-hdmi-black-screen-problem.269149/)
 
 
 ## Functionality
@@ -29,8 +33,6 @@ Feel free to download & use this as a helping point for your very own hackintosh
   - [x] Sound - All inputs & outputs
   - [x] Shutdown & Restart
   - [x] USB map with correct speeds ~~(*see USBmap-explanation.md to see which ports I changed as some ports are disabled and some only run at USB3/2 since I do not need the other standard on those particular connections*)~~ (To be added)
-
-### Unsure if works - will be tested & updated accordingly
 
 ### Not working
   - [ ] Sleep (works, but not reliably)
