@@ -29,15 +29,16 @@ Feel free to download & use this as a helping point for your very own hackintosh
 ## Functionality
 ### Working
   - [x] On-board WiFi & Bluetooth
+  - [x] FileVault
   - [x] Hardware acceleration
   - [x] Sound - All inputs & outputs
   - [x] Shutdown & Restart
   - [x] USB map with correct speeds ~~(*see USBmap-explanation.md to see which ports I changed as some ports are disabled and some only run at USB3/2 since I do not need the other standard on those particular connections*)~~ (To be added)
+Everything else seems to be working correctly, these are just the functions that usually do not work properly.
 
 ### Not working
-  - [ ] Sleep (works, but not reliably)
+  - [ ] Sleep (works, but not reliably and causes graphical glitches)
   
-
 ## Some hopefully useful tips for you
   - Changing the USB map? See [Port limit patch](https://github.com/corpnewt/USBMap#port-limit-patch) and [Dortania / USBMap - Intel mapping](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html)
   - Before upgrading the OpenCore, make sure to have a backup as I had immense difficulty with making 0.6.3 or 0.6.4 work (I failed). I will definitely have a shot at this soon and will keep this repo updated (**BigSur coming!!!**)
