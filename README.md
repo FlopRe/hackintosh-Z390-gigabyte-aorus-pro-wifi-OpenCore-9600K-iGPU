@@ -1,6 +1,8 @@
 # Z390 Gigabyte Aorus Pro Wifi - OpenCore 0.6.3 - Big Sur 11.0.1 - 9600K - iGPU - hackintosh
 ![Screenshot](screenshot.png)
 
+
+## Information
 Hackintosh EFI files for Z390 Aorus Pro Wifi. Other devs with this exact motherboard state that it will 'never be possible' to make the integrated WiFi & Blueooth work - well, they're wrong, it works perfectly fine using using zxystd's itlwm.
 Feel free to download & use this as a helping point for your very own hackintosh build, but keep in mind:
   - If you aren't using iGPU, make all the neccessary changes for your dGPU
@@ -9,8 +11,6 @@ Feel free to download & use this as a helping point for your very own hackintosh
   - Make an OC snapshot if you are using different Kexts
   - You might want to add verbose for troubleshooting, at least until you get it to work as needed (-v into boot-args) 
 
-
-## Information (and references)
 ### Specs
   - Z390 Aorus Pro Wifi
   - i5 9600K
