@@ -8,7 +8,7 @@ Feel free to download & use this as a helping point for your very own hackintosh
   - Remove the GPU_DISABLE SSDT (and inside config.plist) if you do not have a dedicated card that needs disabling in your system
   - Change the MLB, ROM, SystemSerialNumber and SerialUUID inside of config.plist
   - Make an OC snapshot if you are using different Kexts
-  - You might want to add verbose for troubleshooting, at least until you get it to work as needed (`-v debug=0x100 keepsyms=1`into boot-args) 
+  - You might want to add verbose for troubleshooting, at least until you get it to work as needed (`-v debug=0x100 keepsyms=1` into boot-args) 
 
 ### **Specs**
   - **OpenCore:** 0.6.3
