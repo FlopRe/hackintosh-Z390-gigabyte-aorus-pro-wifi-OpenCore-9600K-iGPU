@@ -1,7 +1,6 @@
 # Z390 Gigabyte Aorus Pro Wifi - OpenCore 0.6.3 - Big Sur 11.0.1 - 9600K - iGPU - hackintosh
 ![Screenshot](screenshot.png)
 
-
 ## Information
 Hackintosh EFI files for Z390 Aorus Pro Wifi. Other devs with this exact motherboard state that it will 'never be possible' to make the integrated WiFi & Blueooth work - well, they're wrong, it works perfectly fine using using itlwm from @zxystd
 Feel free to download & use this as a helping point for your very own hackintosh build, but keep in mind:
@@ -38,6 +37,7 @@ Everything else seems to be working correctly, these are just the functions that
 
 ### Not working
   - [ ] Sleep (works, but not reliably and causes graphical glitches)
+  
   
 ## Some hopefully useful tips for you
   - Changing the USB map? See [Port limit patch](https://github.com/corpnewt/USBMap#port-limit-patch) and [Dortania / USBMap - Intel mapping](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html)
