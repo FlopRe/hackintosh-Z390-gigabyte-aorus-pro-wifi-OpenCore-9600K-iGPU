@@ -23,6 +23,7 @@ Feel free to download & use this as a helping point for your very own hackintosh
   - [Dortania Install Guide - Intel Coffee Lake](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#starting-point)
   - [zxystd's itlwm](https://github.com/OpenIntelWireless/itlwm)
   - [Framebuffer Patching](https://www.tonymacx86.com/threads/guide-general-framebuffer-patching-guide-hdmi-black-screen-problem.269149/)
+  - Changing the USB map? See [Port limit patch](https://github.com/corpnewt/USBMap#port-limit-patch) and [Dortania / USBMap - Intel mapping](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html)
 
 
 ## Functionality
@@ -37,8 +38,3 @@ Everything else seems to be working correctly, these are just the functions that
 
 ### Not working
   - [ ] Sleep (works, but not reliably and causes graphical glitches)
-  
-  
-## Some hopefully useful tips for you
-  - Changing the USB map? See [Port limit patch](https://github.com/corpnewt/USBMap#port-limit-patch) and [Dortania / USBMap - Intel mapping](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html)
-  - Before upgrading the OpenCore, make sure to have a backup as I had immense difficulty with making 0.6.3 or 0.6.4 work (I failed). I will definitely have a shot at this soon and will keep this repo updated (**BigSur coming!!!**)
