@@ -3,7 +3,7 @@
 
 
 ## Information
-Hackintosh EFI files for Z390 Aorus Pro Wifi. Other devs with this exact motherboard state that it will 'never be possible' to make the integrated WiFi & Blueooth work - well, they're wrong, it works perfectly fine using using zxystd's itlwm.
+Hackintosh EFI files for Z390 Aorus Pro Wifi. Other devs with this exact motherboard state that it will 'never be possible' to make the integrated WiFi & Blueooth work - well, they're wrong, it works perfectly fine using using itlwm from @zxystd
 Feel free to download & use this as a helping point for your very own hackintosh build, but keep in mind:
   - If you aren't using iGPU, make all the neccessary changes for your dGPU
   - Remove the GPU_DISABLE SSDT (and inside config.plist) if you do not have a dedicated card that needs disabling in your system
