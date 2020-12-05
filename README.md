@@ -24,6 +24,8 @@ Feel free to download & use this as a helping point for your very own hackintosh
   - [zxystd's itlwm](https://github.com/OpenIntelWireless/itlwm)
   - [Framebuffer Patching](https://www.tonymacx86.com/threads/guide-general-framebuffer-patching-guide-hdmi-black-screen-problem.269149/)
   - Changing the USB map? See [Port limit patch](https://github.com/corpnewt/USBMap#port-limit-patch) and [Dortania / USBMap - Intel mapping](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html)
+  - [Heliport](https://github.com/OpenIntelWireless/HeliPort) - GUI for WiFi
+  - [Hackintool](https://github.com/headkaze/Hackintool)
 
 
 ## Functionality
