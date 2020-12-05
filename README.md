@@ -1,4 +1,4 @@
-# Z390 Gigabyte Aorus Pro Wifi - OpenCore 0.6.3 - Big Sur 11.0.1 - 9600K - iGPU - hackintosh
+# Big Sur hackintosh - Z390 Gigabyte Aorus Pro Wifi - 9600K - UHD630
 ![Screenshot](screenshot.png)
 
 ## Information
@@ -11,6 +11,8 @@ Feel free to download & use this as a helping point for your very own hackintosh
   - You might want to add verbose for troubleshooting, at least until you get it to work as needed (-v into boot-args) 
 
 ### Specs
+  - OpenCore: 0.6.3
+  - macOS: Big Sur 11.0.1
   - Motherboard: Gigabyte Z390 Aorus Pro Wifi (A305)
   - CPU: i5 9600K @ 5GHz
   - GPU: UHD630 (*RTX2060 Disabled & not used, using SSDT-GPU-DISABLE*)
