@@ -1,0 +1,1 @@
+# hackintosh-Z390-gigabyte-aorus-pro-wifi-OpenCore-9600K-iGPU
