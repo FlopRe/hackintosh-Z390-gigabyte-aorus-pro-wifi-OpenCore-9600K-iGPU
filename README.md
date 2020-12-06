@@ -4,11 +4,12 @@
 ## **Information**
 Hackintosh EFI files for Z390 Aorus Pro Wifi. Other devs with this exact motherboard state that it will 'never be possible' to make the integrated WiFi & Blueooth work - well, they're wrong, it works perfectly fine using using itlwm from @zxystd
 Feel free to download & use this as a helping point for your very own hackintosh build, but keep in mind:
+  - You will need to start with macOS Catalina first (I went for 10.15.7), then upgrade from there. Make backups throughout the whole process!
   - If you aren't using iGPU, make all the neccessary changes for your dGPU
   - Remove the GPU_DISABLE SSDT (and inside config.plist) if you do not have a dedicated card that needs disabling in your system
   - Change the MLB, ROM, SystemSerialNumber and SerialUUID inside of config.plist
   - Make an OC snapshot if you are using different Kexts
-  - You might want to add verbose for troubleshooting, at least until you get it to work as needed (`-v debug=0x100 keepsyms=1` into boot-args) 
+  - You might want to add verbose for troubleshooting, at least until you get it to work as needed (`-v debug=0x100 keepsyms=1` into boot-args)
 
 ### **Specs**
   - **OpenCore:** 0.6.3
