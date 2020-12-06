@@ -17,7 +17,7 @@ Feel free to download & use this as a helping point for your very own hackintosh
   - **Motherboard:** Gigabyte Z390 Aorus Pro Wifi (A305)
   - **CPU:** i5 9600K @ 5GHz
   - **GPU:** UHD630 (*RTX2060 Disabled & not used, using SSDT-GPU-DISABLE*)
-  - **RAM:** Corsair Vengance Pro RGB 32GB 3200MHz
+  - **RAM:** Corsair Vengance Pro RGB 32GB 3733MHz
   - **Audio Codec:** Realtek ALCS1220A
   - **Ethernet Card:** Intel i219V(7)
   - **Wifi/BT Card:** Onboard
