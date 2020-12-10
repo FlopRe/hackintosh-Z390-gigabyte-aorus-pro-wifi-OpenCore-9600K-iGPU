@@ -39,6 +39,7 @@ Feel free to download & use this as a helping point for your very own hackintosh
   - [x] Sound - All inputs & outputs
   - [x] Shutdown & Restart
   - [x] USB map with correct speeds ~~(*see USBmap-explanation.md to see which ports I changed as some ports are disabled and some only run at USB3/2 since I do not need the other standard on those particular connections*)~~ (To be added)
+
 Everything else seems to be working correctly, these are just the functions that usually do not work properly.
 
 ### **Not working**
